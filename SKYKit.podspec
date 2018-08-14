@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     # core.public_header_files = 'Pod/Classes/**/*.h'
     # core.frameworks = 'UIKit', 'MapKit'
     core.dependency 'SocketRocket', '~> 0.4'
-    core.dependency 'MagicKit-Skygear', '~> 0.0.6'
+    core.dependency 'MagicKit-Skygear', :git => 'https://github.com/Peter-ChengTszTung/MagicKit.git'
   end
 
   s.subspec 'Facebook' do |facebook|
