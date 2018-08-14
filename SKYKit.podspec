@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     core.private_header_files = 'Pod/Classes/**/*_Private.h'
 
     core.dependency 'SocketRocket', '~> 0.4'
-    core.dependency 'MagicKit-Skygear', '~> 0.0.6'
+    core.dependency 'MagicKit-Skygear', :git => 'https://github.com/Peter-ChengTszTung/MagicKit.git'
     core.dependency 'XMLDictionary', '~> 1.4.1'
   end
 
